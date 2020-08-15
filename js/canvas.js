@@ -31,7 +31,7 @@ function draw(){
 var square=function(){
 
   var context = canvas.getContext('2d');
-      context.strokeRect(init.x,init.y,100,100);
+      context.strokeRect(init.x+200,init.y,100,100);
          
 }
 
